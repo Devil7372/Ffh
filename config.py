@@ -14,13 +14,13 @@ STRING_SESSION = os.environ.get("STRING_SESSION", "")
 
 
 # Log & Force Channel Config
-FORCE_SUBS = os.environ.get("FORCE_SUBS", "")
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+FORCE_SUBS = os.environ.get("FORCE_SUBS", "BOTxUPDATE")
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002412832033"))
 
 
 # Mongo DB Database Config
-DATABASE_URL = os.environ.get("DATABASE_URL", "")
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "TechifyBots")
+DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://mifegac332:kDNXzl9jctxm8htP@cluster0.gvvud.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 
 # Other Variables Config
